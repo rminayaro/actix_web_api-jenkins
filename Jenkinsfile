@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                echo "🔨 Construyendo imagen D o c k e r..."
+                echo "🔨 Construyendo imagen Docker..."
                 bat "docker build -t ${DOCKER_REGISTRY}/${DOCKER_IMAGE}:${DOCKER_TAG} ."
             }
         }
