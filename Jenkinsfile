@@ -8,7 +8,7 @@ pipeline {
         SERVER_IP = "64.23.161.84"
         SERVER_PASSWORD = "Ramon2Minaya" // Contraseña de tu servidor
         GITHUB_CREDENTIALS = "github-credentials"
-        GITHUB_REPO = "https://github.com/rminayaro/actix_web_api---Paralelo.git"
+        GITHUB_REPO = "https://github.com/rminayaro/actix_web_api-jenkins.git"
         NEXUS_USER = "admin"
         NEXUS_PASSWORD = "123456"
         PLINK_PATH = "\"C:\\Program Files\\PuTTY\\plink.exe\"" // Ruta correcta de plink.exe con comillas dobles
