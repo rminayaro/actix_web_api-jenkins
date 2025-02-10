@@ -28,7 +28,7 @@ pub async fn count_and_notify_products(client: web::Data<Client>) -> HttpRespons
 
                         let cantidad_modificada = if cantidad > 0 { cantidad - 1 } else { 0 };
 
-                        let notification_message = format!("Listado de productos\nTotal de productos: {}", cantidad_modificada);
+                        let notification_message = format!("Listado de productos\nTotal de productos registrado: {}", cantidad_modificada);
                         println!("Mensaje de notificación: {}", notification_message); // Mensaje de depuración
                         let _ = send_notification(client, &notification_message).await;
                         
