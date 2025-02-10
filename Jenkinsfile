@@ -13,6 +13,7 @@ pipeline {
         NEXUS_PASSWORD = "123456"
         PLINK_PATH = "\"C:\\Program Files\\PuTTY\\plink.exe\"" // Ruta correcta de plink.exe con comillas dobles
     }
+    
     stages {
         stage('Checkout') {
             steps {
